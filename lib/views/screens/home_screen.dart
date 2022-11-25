@@ -3,11 +3,11 @@ import 'package:get/get.dart';
 import 'package:weathersec/controller/global_controller.dart';
 import 'package:weathersec/model/weather_data_daily.dart';
 import 'package:weathersec/utils/custom_colors.dart';
-import 'package:weathersec/widgets/comfort_level_widget.dart';
-import 'package:weathersec/widgets/current_weather_widget.dart';
-import 'package:weathersec/widgets/daily_weather_widget.dart';
-import 'package:weathersec/widgets/header_widget.dart';
-import 'package:weathersec/widgets/hourly_data_widget.dart';
+import 'package:weathersec/views/widgets/comfort_level_widget.dart';
+import 'package:weathersec/views/widgets/current_weather_widget.dart';
+import 'package:weathersec/views/widgets/daily_weather_widget.dart';
+import 'package:weathersec/views/widgets/header_widget.dart';
+import 'package:weathersec/views/widgets/hourly_data_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
