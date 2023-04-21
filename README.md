@@ -2,7 +2,7 @@
 
 # Preview
 <p align="center">
-<img src="lib/assets/results/permission.png" height="480px"/> <img src="lib/assets/results/top.png" height="480px" /> <img src="lib/assets/results/bottom.png" height="480px" />
+<img src="/assets/results/permission.png" height="480px"/> <img src="/assets/results/top.png" height="480px" /> <img src="/assets/results/bottom.png" height="480px" />
 </p>
 
 # Flutter Weather
