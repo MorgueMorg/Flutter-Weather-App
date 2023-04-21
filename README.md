@@ -1,16 +1,38 @@
-# weathersec
+<h1 align="center">Flutter Weather App</h1>
 
-A new Flutter project.
+# Preview
+<p align="center">
+<img src="lib/assets/results/permission.png" height="480px"/> <img src="lib/assets/results/top.png" height="480px" /> <img src="lib/assets/results/bottom.png" height="480px" />
+</p>
 
-## Getting Started
+# Flutter Weather
 
-This project is a starting point for a Flutter application.
+A simple weather App created using [Flutter](https://flutter.dev/) and [Dart](https://dart.dev/) and using weather API.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- Moisture indicator
+- Automatically acquire user current location
+- Permission for geolocation 
+- Hourly weather information
+- 7 days weather information 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+1. Get your API key from any service.
+2. Clone the repo
+   ```sh
+   git@github.com:MorgueMorg/Flutter-Weather-App.git
+   ```
+   or
+   ```sh
+   https://github.com/MorgueMorg/Rick_And_Morty_Flutter.git
+   ```
+   
+4. Install all the packages by typing
+   ```sh
+   flutter pub get
+   ```
+5. Navigate to **lib/api/api_key.dart** and paste your API key to the apiKey variable
+   ```dart
+   var apiKey = 'Paste Your API Key Here';
+   ```
+6. Run the App
