@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:weathersec/views/screens/home_screen.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main(List<String> args) {
+Future main() async {
+  await dotenv.load(fileName: ".env");
   runApp(const MyApp());
 }
 
