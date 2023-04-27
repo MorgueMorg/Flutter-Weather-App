@@ -24,7 +24,7 @@ A simple weather App created using [Flutter](https://flutter.dev/) and [Dart](ht
    ```
    or
    ```sh
-   https://github.com/MorgueMorg/Rick_And_Morty_Flutter.git
+   https://github.com/MorgueMorg/Flutter-Weather-App.git
    ```
    
 4. Install all the packages by typing
